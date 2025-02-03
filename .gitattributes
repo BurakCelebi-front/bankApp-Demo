@@ -11,6 +11,8 @@
 # Ensure CSS and HTML files are detected
 *.css linguist-detectable=true
 *.html linguist-detectable=true
+*.js linguist-detectable=true
+*.jsx linguist-detectable=true
 
 # Ignore large compiled files from language stats
 *.min.js linguist-detectable=false
