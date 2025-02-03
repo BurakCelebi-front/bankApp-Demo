@@ -1,0 +1,16 @@
+# Force GitHub to recognize JSX files as JSX
+*.jsx linguist-language=JSX
+
+# Ensure JavaScript files are correctly classified
+*.js linguist-language=JavaScript
+
+# Ensure TypeScript files are recognized
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
+
+# Ensure CSS and HTML files are detected
+*.css linguist-detectable=true
+*.html linguist-detectable=true
+
+# Ignore large compiled files from language stats
+*.min.js linguist-detectable=false
